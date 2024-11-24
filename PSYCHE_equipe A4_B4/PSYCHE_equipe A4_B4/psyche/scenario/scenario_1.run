@@ -1,0 +1,27 @@
+ouvrir modifier
+creer mine 80 150 -1 ROME
+creer mine 150 150 9 BLEU_CLAIR
+creer mine 600 400 8 GRIS
+creer mine 500 300 2 VERT
+creer route 80 150 -1 ROME 150 150 9 BLEU_CLAIR 2
+creer route 80 150 -1 ROME 600 400 8 GRIS 1
+creer route 600 400 8 GRIS 500 300 2 VERT 2
+modifier mine posX 80 150 -1 ROME 500
+modifier mine posY 150 150 9 BLEU_CLAIR 80
+creer mine 600 600 4 JAUNE
+creer route 600 600 4 JAUNE 150 80 9 BLEU_CLAIR 1
+creer mine 700 500 0 MARRON
+creer mine 700 620 2 MARRON
+creer mine 850 510 3 MARRON
+creer route 600 600 4 JAUNE 700 500 0 MARRON 2
+creer route 700 500 0 MARRON 700 620 2 MARRON 1
+creer route 700 620 2 MARRON 850 510 3 MARRON 1
+fermer modifier
+ouvrir jouer
+selectionner SA
+prendre -1 ROME 8 GRIS
+prendre 8 GRIS 2 VERT
+prendre -1 ROME 9 BLEU_CLAIR
+prendre 9 BLEU_CLAIR 4 JAUNE
+prendre 4 JAUNE 0 MARRON
+prendre 0 MARRON 2 MARRON

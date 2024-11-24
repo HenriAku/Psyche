@@ -1,0 +1,17 @@
+ouvrir modifier
+creer mine 400 400 -1 ROME
+creer mine 150 150 4 BLEU_CLAIR
+creer mine 600 400 4 GRIS
+creer mine 500 300 2 GRIS
+creer mine 150 300 2 BLEU_CLAIR
+creer route 400 400 -1 ROME 150 150 4 BLEU_CLAIR 2
+creer route 400 400 -1 ROME 600 400 4 GRIS 2
+creer route 400 400 -1 ROME 500 300 2 GRIS 2
+creer route 400 400 -1 ROME 150 300 2 BLEU_CLAIR 2
+fermer modifier
+ouvrir jouer
+selectionner SA
+prendre -1 ROME 4 BLEU_CLAIR
+prendre -1 ROME 4 GRIS
+prendre -1 ROME 2 GRIS
+prendre -1 ROME 2 BLEU_CLAIR

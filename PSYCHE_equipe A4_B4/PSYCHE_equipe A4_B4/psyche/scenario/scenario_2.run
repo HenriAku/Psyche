@@ -1,0 +1,33 @@
+generer
+ouvrir jouer
+selectionner SA
+prendre -1 ROME 0 GRIS
+prendre 0 GRIS 3 GRIS
+prendre 3 GRIS 1 GRIS
+prendre 1 GRIS 5 JAUNE
+prendre 5 JAUNE 2 JAUNE
+prendre 2 JAUNE 4 JAUNE
+prendre 4 JAUNE 1 JAUNE
+prendre -1 ROME 1 MARRON
+prendre 1 MARRON 4 MARRON
+prendre 4 MARRON 3 MARRON
+prendre 3 MARRON 5 MARRON
+prendre 3 MARRON 2 MARRON
+prendre 2 MARRON 3 BLEU_CLAIR
+prendre 3 BLEU_CLAIR 1 ROUGE
+prendre 1 ROUGE 2 ROUGE
+prendre 2 ROUGE 4 ROUGE
+prendre 4 ROUGE 5 ROUGE
+prendre 5 ROUGE 3 ROUGE
+prendre 3 ROUGE 6 VERT
+prendre 6 VERT 2 VERT
+prendre 2 VERT 8 VERT
+prendre 8 VERT 4 VERT
+prendre 4 VERT 3 VERT
+prendre 3 VERT 8 BLEU_CLAIR
+prendre 8 BLEU_CLAIR 6 BLEU_CLAIR
+prendre 8 BLEU_CLAIR 4 BLEU_CLAIR
+prendre 4 BLEU_CLAIR 2 BLEU_CLAIR
+prendre 2 BLEU_CLAIR 2 GRIS
+prendre 2 GRIS 4 GRIS
+prendre 4 GRIS 3 JAUNE
